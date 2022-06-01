@@ -81,8 +81,8 @@
 
 ## Mods planned to be **ADDED**:
 
--   [ ] Glassentials
--   [ ] Simply Lights
+-   [x] Glassentials
+-   [x] Simply Lights
 -   [ ] Twilight Forest
 -   [ ] Astral Sorcery
 -   [ ] Inventory Pets
