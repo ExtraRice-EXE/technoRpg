@@ -1,6 +1,6 @@
 # technoRpg
 
-## Just a custom minecraft mod pack made by me for friends. Only minor config files are changed. Nothing impactful! 🙂.
+## Ano? Palag! Just a custom minecraft mod pack made by me for friends. Only minor config files are changed.
 
 **_Mod list is not final, things might get removed and some more mods might get added once they are updated and proven fun to play with!_**
 
@@ -112,13 +112,17 @@
 -   [ ] Mining Gadgets
 -   [ ] Powah
 -   [ ] Dank Storage
--   [ ] XNET Gases
+-   [x] XNET Gases
 -   [ ] Useful Railroads
 -   [ ] JAOPCA
 -   [ ] Cable Tiers
--   [ ] Creative Wireless Transmitter
+-   [x] Creative Wireless Transmitter
 -   [ ] Refined Pipes
 -   [ ] Draconic Evolution
+-   [x] Cosmetic Armors
+-   [x] Clumps
+-   [x] Advancement Plaques
+-   [x] Legendary Tooltips
 
 ## Mods planned to be **REMOVED**:
 
