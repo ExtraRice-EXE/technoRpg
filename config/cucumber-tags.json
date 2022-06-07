@@ -28,5 +28,11 @@
   "forge:ingots/titanium": "null",
   "forge:rubber": "null",
   "forge:dusts/sulfur": "mekanism:dust_sulfur",
-  "forge:ingots/nickel": "immersiveengineering:ingot_nickel"
+  "forge:ingots/nickel": "immersiveengineering:ingot_nickel",
+  "forge:ores/copper": "iceandfire:copper_ore",
+  "forge:ores/silver": "iceandfire:silver_ore",
+  "forge:ores/lead": "mysticalworld:lead_ore",
+  "forge:ores/uranium": "mekanism:uranium_ore",
+  "forge:ores/aluminum": "immersiveengineering:ore_aluminum",
+  "forge:ores/nickel": "immersiveengineering:ore_nickel"
 }

@@ -1,0 +1,451 @@
+---- Minecraft Crash Report ----
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 6/1/22 4:19 AM
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 60.00 seconds (should be max 0.05)
+	at net.minecraft.world.World.func_217353_a(World.java:167) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:enhancedcelestials.mixins.json:MixinWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.World.func_225522_c_(World.java:711) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:enhancedcelestials.mixins.json:MixinWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.util.math.shapes.VoxelShapeSpliterator.func_234876_a_(SourceFile:120) ~[?:?] {re:classloading}
+	at net.minecraft.util.math.shapes.VoxelShapeSpliterator.func_234878_a_(SourceFile:77) ~[?:?] {re:classloading}
+	at net.minecraft.util.math.shapes.VoxelShapeSpliterator.tryAdvance(SourceFile:62) ~[?:?] {re:classloading}
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:731) ~[?:1.8.0_311] {}
+	at net.minecraft.util.ReuseableStream$1.tryAdvance(SourceFile:31) ~[?:?] {re:classloading}
+	at java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:1.8.0_311] {}
+	at net.minecraft.util.math.shapes.VoxelShapes.func_212437_a(SourceFile:197) ~[?:?] {re:classloading}
+	at net.minecraft.entity.Entity.func_223310_a(Entity.java:749) ~[?:?] {re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:randompatches.mixins.json:EntityMixin,pl:mixin:APP:betterendforge.mixins.json:EntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:EntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinEntity,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.aquadashers.EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.umbrella.EntityMixin,pl:mixin:APP:immersiveengineering.mixins.json:accessors.EntityAccess,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:expandability.mixins.json:fluidcollision.EntityMixin,pl:mixin:APP:expandability.mixins.json:swimming.EntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.Entity.func_223307_a(Entity.java:738) ~[?:?] {re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:randompatches.mixins.json:EntityMixin,pl:mixin:APP:betterendforge.mixins.json:EntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:EntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinEntity,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.aquadashers.EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.umbrella.EntityMixin,pl:mixin:APP:immersiveengineering.mixins.json:accessors.EntityAccess,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:expandability.mixins.json:fluidcollision.EntityMixin,pl:mixin:APP:expandability.mixins.json:swimming.EntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.Entity.func_213306_e(Entity.java:711) ~[?:?] {re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:randompatches.mixins.json:EntityMixin,pl:mixin:APP:betterendforge.mixins.json:EntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:EntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinEntity,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.aquadashers.EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.umbrella.EntityMixin,pl:mixin:APP:immersiveengineering.mixins.json:accessors.EntityAccess,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:expandability.mixins.json:fluidcollision.EntityMixin,pl:mixin:APP:expandability.mixins.json:swimming.EntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.Entity.func_213315_a(Entity.java:534) ~[?:?] {re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:randompatches.mixins.json:EntityMixin,pl:mixin:APP:betterendforge.mixins.json:EntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:EntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinEntity,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.aquadashers.EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.umbrella.EntityMixin,pl:mixin:APP:immersiveengineering.mixins.json:accessors.EntityAccess,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:expandability.mixins.json:fluidcollision.EntityMixin,pl:mixin:APP:expandability.mixins.json:swimming.EntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at yesman.epicfight.animation.types.ActionAnimation.move(ActionAnimation.java:89) ~[epicfight:1.0] {re:classloading}
+	at yesman.epicfight.animation.types.ActionAnimation.updateOnLinkAnimation(ActionAnimation.java:65) ~[epicfight:1.0] {re:classloading}
+	at yesman.epicfight.animation.types.LinkAnimation.onUpdate(LinkAnimation.java:16) ~[epicfight:1.0] {re:classloading}
+	at yesman.epicfight.animation.AnimatorServer.update(AnimatorServer.java:52) ~[epicfight:1.0] {re:classloading}
+	at yesman.epicfight.capabilities.entity.LivingData.updateOnServer(LivingData.java:120) ~[epicfight:1.0] {re:classloading,pl:runtimedistcleaner:A}
+	at yesman.epicfight.capabilities.entity.LivingData.update(LivingData.java:130) ~[epicfight:1.0] {re:classloading,pl:runtimedistcleaner:A}
+	at yesman.epicfight.events.EntityEvents.updateEvent(EntityEvents.java:98) ~[epicfight:1.0] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_353_EntityEvents_updateEvent_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus$$Lambda$3072/2062781289.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:326) ~[forge:?] {re:classloading}
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2114) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:fml:placebo:placeboshieldblock,xf:fml:apotheosis:apothshieldblock,xf:fml:apotheosis:apothpotiondmg,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:placebo:placeboshieldblock,xf:fml:apotheosis:apothshieldblock,xf:fml:apotheosis:apothpotiondmg,pl:mixin:APP:citadel.mixins.json:LivingEntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:LivingEntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinLivingEntity,pl:mixin:APP:spartanweaponry.mixins.json:LivingEntityMixin,pl:mixin:APP:enhancedcelestials.mixins.json:MixinLivingEntity,pl:mixin:APP:expandability.mixins.json:swimming.LivingEntityMixin,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorLivingEntity,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorMobEntity,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld$$Lambda$20038/219635036.accept(Unknown Source) ~[?:?] {}
+	at net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:enhancedcelestials.mixins.json:MixinWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:resourcefulbees.mixins.json:MixinMinecraftServer,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:resourcefulbees.mixins.json:MixinMinecraftServer,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:resourcefulbees.mixins.json:MixinMinecraftServer,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:resourcefulbees.mixins.json:MixinMinecraftServer,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer$$Lambda$18716/542811912.run(Unknown Source) ~[?:?] {}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at net.minecraft.world.World.func_217353_a(World.java:167) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:enhancedcelestials.mixins.json:MixinWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.World.func_225522_c_(World.java:711) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:enhancedcelestials.mixins.json:MixinWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.util.math.shapes.VoxelShapeSpliterator.func_234876_a_(SourceFile:120) ~[?:?] {re:classloading}
+	at net.minecraft.util.math.shapes.VoxelShapeSpliterator.func_234878_a_(SourceFile:77) ~[?:?] {re:classloading}
+	at net.minecraft.util.math.shapes.VoxelShapeSpliterator.tryAdvance(SourceFile:62) ~[?:?] {re:classloading}
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:731) ~[?:1.8.0_311] {}
+	at net.minecraft.util.ReuseableStream$1.tryAdvance(SourceFile:31) ~[?:?] {re:classloading}
+	at java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681) ~[?:1.8.0_311] {}
+	at net.minecraft.util.math.shapes.VoxelShapes.func_212437_a(SourceFile:197) ~[?:?] {re:classloading}
+	at net.minecraft.entity.Entity.func_223310_a(Entity.java:749) ~[?:?] {re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:randompatches.mixins.json:EntityMixin,pl:mixin:APP:betterendforge.mixins.json:EntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:EntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinEntity,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.aquadashers.EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.umbrella.EntityMixin,pl:mixin:APP:immersiveengineering.mixins.json:accessors.EntityAccess,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:expandability.mixins.json:fluidcollision.EntityMixin,pl:mixin:APP:expandability.mixins.json:swimming.EntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.Entity.func_223307_a(Entity.java:738) ~[?:?] {re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:randompatches.mixins.json:EntityMixin,pl:mixin:APP:betterendforge.mixins.json:EntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:EntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinEntity,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.aquadashers.EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.umbrella.EntityMixin,pl:mixin:APP:immersiveengineering.mixins.json:accessors.EntityAccess,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:expandability.mixins.json:fluidcollision.EntityMixin,pl:mixin:APP:expandability.mixins.json:swimming.EntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.Entity.func_213306_e(Entity.java:711) ~[?:?] {re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:randompatches.mixins.json:EntityMixin,pl:mixin:APP:betterendforge.mixins.json:EntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:EntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinEntity,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.aquadashers.EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.umbrella.EntityMixin,pl:mixin:APP:immersiveengineering.mixins.json:accessors.EntityAccess,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:expandability.mixins.json:fluidcollision.EntityMixin,pl:mixin:APP:expandability.mixins.json:swimming.EntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.Entity.func_213315_a(Entity.java:534) ~[?:?] {re:computing_frames,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:randompatches.mixins.json:EntityMixin,pl:mixin:APP:betterendforge.mixins.json:EntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:EntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinEntity,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.aquadashers.EntityMixin,pl:mixin:APP:mixins.artifacts.json:item.umbrella.EntityMixin,pl:mixin:APP:immersiveengineering.mixins.json:accessors.EntityAccess,pl:mixin:APP:quark.mixins.json:EntityMixin,pl:mixin:APP:expandability.mixins.json:fluidcollision.EntityMixin,pl:mixin:APP:expandability.mixins.json:swimming.EntityMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at yesman.epicfight.animation.types.ActionAnimation.move(ActionAnimation.java:89) ~[epicfight:1.0] {re:classloading}
+	at yesman.epicfight.animation.types.ActionAnimation.updateOnLinkAnimation(ActionAnimation.java:65) ~[epicfight:1.0] {re:classloading}
+	at yesman.epicfight.animation.types.LinkAnimation.onUpdate(LinkAnimation.java:16) ~[epicfight:1.0] {re:classloading}
+	at yesman.epicfight.animation.AnimatorServer.update(AnimatorServer.java:52) ~[epicfight:1.0] {re:classloading}
+	at yesman.epicfight.capabilities.entity.LivingData.updateOnServer(LivingData.java:120) ~[epicfight:1.0] {re:classloading,pl:runtimedistcleaner:A}
+	at yesman.epicfight.capabilities.entity.LivingData.update(LivingData.java:130) ~[epicfight:1.0] {re:classloading,pl:runtimedistcleaner:A}
+	at yesman.epicfight.events.EntityEvents.updateEvent(EntityEvents.java:98) ~[epicfight:1.0] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_353_EntityEvents_updateEvent_LivingUpdateEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus$$Lambda$3072/2062781289.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-4.0.0.jar:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingUpdate(ForgeHooks.java:326) ~[forge:?] {re:classloading}
+	at net.minecraft.entity.LivingEntity.func_70071_h_(LivingEntity.java:2114) ~[?:?] {re:mixin,pl:accesstransformer:B,xf:fml:placebo:placeboshieldblock,xf:fml:apotheosis:apothshieldblock,xf:fml:apotheosis:apothpotiondmg,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:placebo:placeboshieldblock,xf:fml:apotheosis:apothshieldblock,xf:fml:apotheosis:apothpotiondmg,pl:mixin:APP:citadel.mixins.json:LivingEntityMixin,pl:mixin:APP:resourcefulbees.mixins.json:LivingEntityAccessor,pl:mixin:APP:resourcefulbees.mixins.json:MixinLivingEntity,pl:mixin:APP:spartanweaponry.mixins.json:LivingEntityMixin,pl:mixin:APP:enhancedcelestials.mixins.json:MixinLivingEntity,pl:mixin:APP:expandability.mixins.json:swimming.LivingEntityMixin,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorLivingEntity,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.entity.MobEntity.func_70071_h_(MobEntity.java:300) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:assets/botania/botania.mixins.json:AccessorMobEntity,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_217479_a(ServerWorld.java:611) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld$$Lambda$20038/219635036.accept(Unknown Source) ~[?:?] {}
+	at net.minecraft.world.World.func_217390_a(World.java:554) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:enhancedcelestials.mixins.json:MixinWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.world.server.ServerWorld.func_72835_b(ServerWorld.java:404) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:immersiveengineering.mixins.json:coremods.ServerWorldMixin,pl:mixin:APP:quark.mixins.json:ServerWorldMixin,pl:mixin:APP:enhancedcelestials.mixins.json:MixinServerWorld,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:851) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:resourcefulbees.mixins.json:MixinMinecraftServer,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:291) ~[?:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:resourcefulbees.mixins.json:MixinMinecraftServer,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:resourcefulbees.mixins.json:MixinMinecraftServer,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) ~[?:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:resourcefulbees.mixins.json:MixinMinecraftServer,pl:mixin:APP:byg.mixins.json:server.MixinMinecraftServer,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Thread Dump --
+Details:
+	Threads: "Ice and Fire Pathfinding Worker #0" Id=104 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@157a1592
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@157a1592
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	...
+
+
+"Netty Epoll Server IO #3" Id=81 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #2" Id=71 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #1" Id=69 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server Watchdog" Id=68 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:41)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Thread-19" Id=60 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Netty Epoll Server IO #0" Id=59 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:114)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:239)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:256)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"ObjectCleanerThread" Id=58 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@1bbde94d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1bbde94d
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Server console handler" Id=57 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(FileInputStream.java:255)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	-  locked java.io.BufferedInputStream@1f827ee2
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	-  locked java.io.InputStreamReader@5a80e376
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	...
+
+
+"DestroyJavaVM" Id=56 RUNNABLE
+
+
+"Server thread" Id=53 RUNNABLE
+	at net.minecraft.world.World.func_217353_a(World.java:167)
+	at net.minecraft.world.World.func_225522_c_(World.java:711)
+	at net.minecraft.util.math.shapes.VoxelShapeSpliterator.func_234876_a_(SourceFile:120)
+	at net.minecraft.util.math.shapes.VoxelShapeSpliterator.func_234878_a_(SourceFile:77)
+	at net.minecraft.util.math.shapes.VoxelShapeSpliterator.tryAdvance(SourceFile:62)
+	at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:731)
+	at net.minecraft.util.ReuseableStream$1.tryAdvance(SourceFile:31)
+	at java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	...
+
+
+"Snooper Timer" Id=54 WAITING on java.util.TaskQueue@1f93ab31
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@1f93ab31
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	at java.util.TimerThread.run(Timer.java:505)
+
+
+"Keep-Alive-SocketCleaner" Id=51 WAITING on sun.net.www.http.KeepAliveStreamCleaner@6b10de0f
+	at java.lang.Object.wait(Native Method)
+	-  waiting on sun.net.www.http.KeepAliveStreamCleaner@6b10de0f
+	at sun.net.www.http.KeepAliveStreamCleaner.run(KeepAliveStreamCleaner.java:101)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Thread-12" Id=34 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Thread-11" Id=33 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Thread-10" Id=32 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Thread-9" Id=31 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Thread-8" Id=30 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Thread-7" Id=29 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Timer hack thread" Id=19 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.util.Util$6.run(Util.java:505)
+
+
+"Thread-2" Id=16 RUNNABLE (in native)
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+"Thread-1" Id=15 TIMED_WAITING
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:338)
+	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+
+
+"Signal Dispatcher" Id=4 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@67e9c8e1
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@67e9c8e1
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@3aaf1c39
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@3aaf1c39
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:56) [?:?] {re:classloading}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311] {}
+
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 4, entities: 1363 [minecraft:item:217,iceandfire:stone_statue:81,minecraft:skeleton:61,minecraft:chest_minecart:59,projectvibrantjourneys:firefly:53], block_entities: 4196 [minecraft:chest:1627,minecraft:mob_spawner:1044,minecraft:skull:324,minecraft:campfire:175,apotheosis:boss_spawn_tile:159], block_ticks: 194, fluid_ticks: 46, chunk_source: ServerChunkCache: 7656,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0 [], block_entities: 8 [resourcefulbees:tiered_beehive:6,minecraft:mob_spawner:1,minecraft:chest:1], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: ServerChunkCache: 0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Linux (amd64) version 3.10.0-1062.1.1.el7.x86_64
+	Java Version: 1.8.0_311, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 4585647440 bytes (4373 MB) / 8367112192 bytes (7979 MB) up to 8367112192 bytes (7979 MB)
+	CPUs: 2
+	JVM Flags: 2 total; -Xmx8192M -Xms8192M
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmlserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge.jar object_holder_definalize PLUGINSERVICE 
+		/forge.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge.jar capability_inject_definalize PLUGINSERVICE 
+		/forge.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/forge.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.35
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+		kotlinforforge@1.17.0
+	Mod List: 
+		BetterDungeons-1.16.4-1.2.1.jar                   |YUNG's Better Dungeons        |betterdungeons                |1.16.4-1.2.1        |DONE      |Manifest: NOSIGNATURE
+		supermartijn642configlib-1.0.9-mc1.16.jar         |SuperMartijn642's Config Lib  |supermartijn642configlib      |1.0.9               |DONE      |Manifest: NOSIGNATURE
+		NetherPortalFix_1.16.3-7.2.1.jar                  |NetherPortalFix               |netherportalfix               |7.2.1               |DONE      |Manifest: NOSIGNATURE
+		areas_1.16.5-2.8.jar                              |Areas                         |areas                         |2.8                 |DONE      |Manifest: NOSIGNATURE
+		IronJetpacks-1.16.5-4.2.3.jar                     |Iron Jetpacks                 |ironjetpacks                  |4.2.3               |DONE      |Manifest: NOSIGNATURE
+		BetterCaves-Forge-1.16.4-1.1.2.jar                |YUNG's Better Caves           |bettercaves                   |1.16.4-1.1.2        |DONE      |Manifest: NOSIGNATURE
+		villagernames_1.16.5-3.4.jar                      |Villager Names                |villagernames                 |3.4                 |DONE      |Manifest: NOSIGNATURE
+		CTM-MC1.16.1-1.1.2.6.jar                          |ConnectedTexturesMod          |ctm                           |MC1.16.1-1.1.2.6    |DONE      |Manifest: NOSIGNATURE
+		CookingForBlockheads_1.16.5-9.3.4.jar             |Cooking for Blockheads        |cookingforblockheads          |9.3.4               |DONE      |Manifest: NOSIGNATURE
+		Placebo-1.16.5-4.7.0.jar                          |Placebo                       |placebo                       |4.7.0               |DONE      |Manifest: NOSIGNATURE
+		citadel-1.8.1-1.16.5.jar                          |Citadel                       |citadel                       |1.8.1               |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.16.4-Forge-13.jar                      |YUNG's API                    |yungsapi                      |1.16.4-Forge-13     |DONE      |Manifest: NOSIGNATURE
+		Bookshelf-Forge-1.16.5-10.4.32.jar                |Bookshelf                     |bookshelf                     |10.4.32             |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		guardvillagers-1.16.5.1.2.6.jar                   |Guard Villagers               |guardvillagers                |1.2.6               |DONE      |Manifest: NOSIGNATURE
+		randompatches-2.4.4-forge.jar                     |RandomPatches                 |randompatches                 |2.4.4-forge         |DONE      |Manifest: 92:f6:29:d4:09:89:f5:f5:98:5e:20:34:31:d0:7b:58:22:06:bd:a5:d1:6a:92:6e:ac:3d:8d:18:c5:b2:5b:d7
+		DarkUtilities-1.16.5-8.0.14.jar                   |Dark Utilities                |darkutils                     |8.0.14              |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		Apotheosis-1.16.5-4.8.99F.jar                     |Apotheosis                    |apotheosis                    |4.8.99F             |DONE      |Manifest: NOSIGNATURE
+		MekanismGenerators-1.16.5-10.1.2.457.jar          |Mekanism: Generators          |mekanismgenerators            |10.1.2              |DONE      |Manifest: NOSIGNATURE
+		Hwyla-forge-1.10.11-B78_1.16.2.jar                |Waila                         |waila                         |1.10.11-B78_1.16.2  |DONE      |Manifest: NOSIGNATURE
+		carryon-1.16.5-1.15.5.22.jar                      |Carry On                      |carryon                       |1.15.5.22           |DONE      |Manifest: NOSIGNATURE
+		Paraglider-1.16.5-1.3.2.7.jar                     |Paraglider                    |paraglider                    |1.3.2.7             |DONE      |Manifest: NOSIGNATURE
+		refinedstorage-1.9.17.jar                         |Refined Storage               |refinedstorage                |1.9.17              |DONE      |Manifest: NOSIGNATURE
+		betterendforge-1.16.5-1.6.3.jar                   |BetterEnd Forge               |betterendforge                |1.16.5-1.6.3        |DONE      |Manifest: NOSIGNATURE
+		industrial-foregoing-1.16.5-3.2.14.6-14.jar       |Industrial Foregoing          |industrialforegoing           |3.2.14.6            |DONE      |Manifest: NOSIGNATURE
+		ResourcefulBees-1.16.5-0.10.7.jar                 |Resourceful Bees              |resourcefulbees               |1.16.5-0.10.7       |DONE      |Manifest: NOSIGNATURE
+		repurposed_structures_forge-3.4.7+1.16.5.jar      |Repurposed Structures         |repurposed_structures         |3.4.7+1.16.5        |DONE      |Manifest: NOSIGNATURE
+		projectvibrantjourneys-1.16.5-3.2.11.jar          |Project: Vibrant Journeys     |projectvibrantjourneys        |1.16.5-3.2.11       |DONE      |Manifest: NOSIGNATURE
+		MekanismAdditions-1.16.5-10.1.2.457.jar           |Mekanism: Additions           |mekanismadditions             |10.1.2              |DONE      |Manifest: NOSIGNATURE
+		ironfurnaces-1.16.5-2.7.7.jar                     |Iron Furnaces                 |ironfurnaces                  |2.7.7               |DONE      |Manifest: NOSIGNATURE
+		silent-gear-1.16.5-2.6.30.jar                     |Silent Gear                   |silentgear                    |2.6.30              |DONE      |Manifest: NOSIGNATURE
+		supermartijn642corelib-1.0.18-forge-mc1.16.5.jar  |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.0.18              |DONE      |Manifest: NOSIGNATURE
+		Botania-1.16.5-420.2.jar                          |Botania                       |botania                       |1.16.5-420.2        |DONE      |Manifest: NOSIGNATURE
+		villagespawnpoint_1.16.5-1.8.jar                  |Village Spawn Point           |villagespawnpoint             |1.8                 |DONE      |Manifest: NOSIGNATURE
+		curios-forge-1.16.5-4.0.5.3.jar                   |Curios API                    |curios                        |1.16.5-4.0.5.3      |DONE      |Manifest: NOSIGNATURE
+		Patchouli-1.16.4-53.2.jar                         |Patchouli                     |patchouli                     |1.16.4-53.2         |DONE      |Manifest: NOSIGNATURE
+		collective-1.16.5-4.25.jar                        |Collective                    |collective                    |4.25                |DONE      |Manifest: NOSIGNATURE
+		elevatorid-1.16.5-1.7.13.jar                      |Elevator Mod                  |elevatorid                    |1.16.5-1.7.13       |DONE      |Manifest: NOSIGNATURE
+		ftb-ultimine-forge-1605.3.1-build.45.jar          |FTB Ultimine                  |ftbultimine                   |1605.3.1-build.45   |DONE      |Manifest: NOSIGNATURE
+		Runelic-1.16.5-7.0.3.jar                          |Runelic                       |runelic                       |7.0.3               |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		ExtraStorage-1.16.5-1.6.1.jar                     |Extra Storage                 |extrastorage                  |1.6.1               |DONE      |Manifest: NOSIGNATURE
+		MekanismTools-1.16.5-10.1.2.457.jar               |Mekanism: Tools               |mekanismtools                 |10.1.2              |DONE      |Manifest: NOSIGNATURE
+		SpartanWeaponry-1.16.5-2.2.0-rc-2.jar             |Spartan Weaponry              |spartanweaponry               |2.2.0 Release Candid|DONE      |Manifest: NOSIGNATURE
+		architectury-1.32.63.jar                          |Architectury                  |architectury                  |1.32.63             |DONE      |Manifest: NOSIGNATURE
+		CodeChickenLib-1.16.5-4.0.7.445-universal.jar     |CodeChicken Lib               |codechickenlib                |4.0.7.445           |DONE      |Manifest: 31:e6:db:63:47:4a:6e:e0:0a:2c:11:d1:76:db:4e:82:ff:56:2d:29:93:d2:e5:02:bd:d3:bd:9d:27:47:a5:71
+		BetterMineshafts-Forge-1.16.4-2.0.4.jar           |YUNG's Better Mineshafts      |bettermineshafts              |1.16.4-2.0.4        |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.16.5-3.0.71.jar                  |GeckoLib                      |geckolib3                     |3.0.71              |DONE      |Manifest: NOSIGNATURE
+		Cyclic-1.16.5-1.5.15.jar                          |Cyclic                        |cyclic                        |1.16.5-1.5.15       |DONE      |Manifest: 1f:47:ac:b1:61:82:96:b8:47:19:16:d2:61:81:11:60:3a:06:4b:61:31:56:7d:44:31:1e:0c:6f:22:5b:4c:ed
+		Cucumber-1.16.5-4.1.12.jar                        |Cucumber Library              |cucumber                      |4.1.12              |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-1605.3.4-build.90.jar           |FTB Library                   |ftblibrary                    |1605.3.4-build.90   |DONE      |Manifest: NOSIGNATURE
+		ftb-teams-forge-1605.2.3-build.40.jar             |FTB Teams                     |ftbteams                      |1605.2.3-build.40   |DONE      |Manifest: NOSIGNATURE
+		treeharvester_1.16.5-5.1.jar                      |Tree Harvester                |treeharvester                 |5.1                 |DONE      |Manifest: NOSIGNATURE
+		jei-1.16.5-7.7.1.152.jar                          |Just Enough Items             |jei                           |7.7.1.152           |DONE      |Manifest: NOSIGNATURE
+		AttributeFix-1.16.5-10.1.4.jar                    |AttributeFix                  |attributefix                  |10.1.4              |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		Mekanism-1.16.5-10.1.2.457.jar                    |Mekanism                      |mekanism                      |10.1.2              |DONE      |Manifest: NOSIGNATURE
+		WAWLA-1.16.5-8.0.9.jar                            |WAWLA                         |wawla                         |8.0.9               |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		invtweaks-1.16.4-1.0.1.jar                        |Inventory Tweaks Renewed      |invtweaks                     |1.16.4-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		Waystones_1.16.5-7.6.4.jar                        |Waystones                     |waystones                     |7.6.4               |DONE      |Manifest: NOSIGNATURE
+		EpicFightMod-16.5.13.jar                          |Epic Fight Mod                |epicfight                     |16.5.13             |DONE      |Manifest: NOSIGNATURE
+		comforts-forge-1.16.5-4.0.1.5.jar                 |Comforts                      |comforts                      |1.16.5-4.0.1.5      |DONE      |Manifest: NOSIGNATURE
+		TravelersBackpack-1.16.5-5.4.7.jar                |Traveler's Backpack           |travelersbackpack             |5.4.7               |DONE      |Manifest: NOSIGNATURE
+		Artifacts-1.16.5-2.10.5.jar                       |Artifacts                     |artifacts                     |1.16.5-2.10.5       |DONE      |Manifest: NOSIGNATURE
+		DungeonCrawl-1.16.5-2.3.8.jar                     |Dungeon Crawl                 |dungeoncrawl                  |2.3.8               |DONE      |Manifest: NOSIGNATURE
+		FarmingForBlockheads_1.16.5-7.3.1.jar             |Farming for Blockheads        |farmingforblockheads          |7.3.1               |DONE      |Manifest: NOSIGNATURE
+		mcjtylib-1.16-5.1.6.jar                           |McJtyLib                      |mcjtylib                      |1.16-5.1.6          |DONE      |Manifest: NOSIGNATURE
+		rftoolsbase-1.16-2.1.3.jar                        |RFToolsBase                   |rftoolsbase                   |1.16-2.1.3          |DONE      |Manifest: NOSIGNATURE
+		xnet-1.16-3.0.16.jar                              |XNet                          |xnet                          |1.16-3.0.16         |DONE      |Manifest: NOSIGNATURE
+		iceandfire-2.1.9-1.16.5.jar                       |Ice and Fire                  |iceandfire                    |2.1.9-1.16.5        |DONE      |Manifest: NOSIGNATURE
+		walljump-forge-1.16.4-1.3.7.jar                   |Wall-Jump!                    |walljump                      |1.16.4-1.3.7        |DONE      |Manifest: NOSIGNATURE
+		iChunUtil-1.16.5-10.6.1.jar                       |iChunUtil                     |ichunutil                     |10.6.1              |DONE      |Manifest: NOSIGNATURE
+		EnderStorage-1.16.5-2.8.0.170-universal.jar       |EnderStorage                  |enderstorage                  |2.8.0.170           |DONE      |Manifest: 31:e6:db:63:47:4a:6e:e0:0a:2c:11:d1:76:db:4e:82:ff:56:2d:29:93:d2:e5:02:bd:d3:bd:9d:27:47:a5:71
+		mysticalworld-1.16.5-0.3.6.27.jar                 |Mystical World                |mysticalworld                 |0.3.6.27            |DONE      |Manifest: NOSIGNATURE
+		ftb-chunks-forge-1605.3.2-build.115.jar           |FTB Chunks                    |ftbchunks                     |1605.3.2-build.115  |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.35-universal.jar                |Forge                         |forge                         |36.2.35             |DONE      |Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		Bountiful-1.16.4-3.3.1.jar                        |Bountiful                     |bountiful                     |1.16.4-3.3.1        |DONE      |Manifest: NOSIGNATURE
+		subwild-1.3.1.jar                                 |Subterranean Wilderness       |subwild                       |1.3.1               |DONE      |Manifest: NOSIGNATURE
+		DynamicSurroundings-1.16.5-4.0.5.0.jar            |§3Dynamic Surroundings        |dsurround                     |4.0.5.0             |DONE      |Manifest: NOSIGNATURE
+		MysticalAgriculture-1.16.5-4.2.6.jar              |Mystical Agriculture          |mysticalagriculture           |4.2.6               |DONE      |Manifest: NOSIGNATURE
+		MysticalAgradditions-1.16.5-4.2.4.jar             |Mystical Agradditions         |mysticalagradditions          |4.2.4               |DONE      |Manifest: NOSIGNATURE
+		ironchest-1.16.5-11.2.21.jar                      |Iron Chests                   |ironchest                     |1.16.5-11.2.21      |DONE      |Manifest: NOSIGNATURE
+		DungeonsArise-1.16.5-2.1.49-beta.jar              |When Dungeons Arise           |dungeons_arise                |2.1.49              |DONE      |Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.35-server.jar                   |Minecraft                     |minecraft                     |1.16.5              |DONE      |Manifest: NOSIGNATURE
+		cofh_core-1.16.5-1.5.0.11.jar                     |CoFH Core                     |cofh_core                     |1.5.0.11            |DONE      |Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		TConstruct-1.16.5-3.3.4.335.jar                   |Tinkers' Construct            |tconstruct                    |3.3.4.335           |DONE      |Manifest: NOSIGNATURE
+		EnchantmentDescriptions-1.16.5-7.0.19.jar         |EnchantmentDescriptions       |enchdesc                      |7.0.19              |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		titanium-1.16.5-3.2.8.4-10.jar                    |Titanium                      |titanium                      |3.2.8.4             |DONE      |Manifest: NOSIGNATURE
+		totw_additions-1.1.0.jar                          |Towers of the Wild: Additions |totw_additions                |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		ImmersiveEngineering-1.16.5-5.0.7-143.jar         |Immersive Engineering         |immersiveengineering          |1.16.5-5.0.7-143    |DONE      |Manifest: 44:39:94:cf:1d:8c:be:3c:7f:a9:ee:f4:1e:63:a5:ac:61:f9:c2:87:d5:5b:d9:d6:8c:b5:3e:96:5d:8e:3f:b7
+		silent-lib-1.16.3-4.9.6.jar                       |Silent Lib                    |silentlib                     |4.9.6               |DONE      |Manifest: NOSIGNATURE
+		archers_paradox-1.16.5-1.5.0.2.jar                |Archer's Paradox              |archers_paradox               |1.5.0.2             |DONE      |Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		towers_of_the_wild-1.16.3-2.1.0.1.jar             |Towers Of The Wild            |towers_of_the_wild            |1.16.3-2.1.0        |DONE      |Manifest: NOSIGNATURE
+		jeiintegration_1.16.5-7.0.1.15.jar                |JEI Integration               |jeiintegration                |7.0.1.15            |DONE      |Manifest: NOSIGNATURE
+		SpartanShields-1.16.5-2.1.2.jar                   |Spartan Shields               |spartanshields                |2.1.2               |DONE      |Manifest: NOSIGNATURE
+		Mantle-1.16.5-1.6.157.jar                         |Mantle                        |mantle                        |1.6.157             |DONE      |Manifest: NOSIGNATURE
+		itemcollectors-1.1.5-mc1.16.jar                   |Item Collectors               |itemcollectors                |1.1.5               |DONE      |Manifest: NOSIGNATURE
+		ftb-backups-2.1.2.2.jar                           |FTB Backups                   |ftbbackups                    |2.1.2.2             |DONE      |Manifest: NOSIGNATURE
+		AutoRegLib-1.6-49.jar                             |AutoRegLib                    |autoreglib                    |1.6-49              |DONE      |Manifest: NOSIGNATURE
+		AkashicTome-1.4-16.jar                            |Akashic Tome                  |akashictome                   |1.4-16              |DONE      |Manifest: NOSIGNATURE
+		Quark-r2.4-322.jar                                |Quark                         |quark                         |r2.4-322            |DONE      |Manifest: NOSIGNATURE
+		StorageDrawers-1.16.3-8.5.2.jar                   |Storage Drawers               |storagedrawers                |8.5.2               |DONE      |Manifest: NOSIGNATURE
+		FluxNetworks-1.16.5-6.2.1.14.jar                  |Flux Networks                 |fluxnetworks                  |6.2.1.14            |DONE      |Manifest: NOSIGNATURE
+		randomvillagenames_1.16.5-1.3.jar                 |Random Village Names          |randomvillagenames            |1.3                 |DONE      |Manifest: NOSIGNATURE
+		twoplayersonehorse-1.16.4-2.0.2.jar               |2 players 1 horse             |twoplayersonehorse            |1.16.4-2.0.2        |DONE      |Manifest: NOSIGNATURE
+		InventoryHud_[1.16.2-1.16.5].forge-3.4.1.jar      |Inventory HUD+(Forge edition) |inventoryhud                  |3.4.1               |DONE      |Manifest: NOSIGNATURE
+		SW Ice and Fire-1.16.5-1.0.1.jar                  |Spartan Weaponry: Ice and Fire|swiaf                         |1.16.5-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		Chisel-MC1.16.5-2.0.1-alpha.4.jar                 |Chisel                        |chisel                        |MC1.16.5-2.0.1-alpha|DONE      |Manifest: NOSIGNATURE
+		BackTools-1.16.5-10.2.0.jar                       |Back Tools                    |backtools                     |10.2.0              |DONE      |Manifest: NOSIGNATURE
+		enhancedcelestials-2.0.9-1.16.5.jar               |Enhanced Celestials           |enhancedcelestials            |2.0.9-1.16.5        |DONE      |Manifest: NOSIGNATURE
+		byg-1.3.5.jar                                     |Oh The Biomes You'll Go       |byg                           |1.3.4               |DONE      |Manifest: NOSIGNATURE
+		Aquaculture-1.16.5-2.1.22.jar                     |Aquaculture 2                 |aquaculture                   |1.16.5-2.1.22       |DONE      |Manifest: NOSIGNATURE
+		refinedstorageaddons-0.7.4.jar                    |Refined Storage Addons        |refinedstorageaddons          |0.7.4               |DONE      |Manifest: NOSIGNATURE
+		expandability-2.0.1-forge.jar                     |ExpandAbility                 |expandability                 |2.0.1               |DONE      |Manifest: NOSIGNATURE
+		valhelsia_core-16.0.15.jar                        |Valhelsia Core                |valhelsia_core                |16.0.15             |DONE      |Manifest: NOSIGNATURE
+		valhelsia_structures-1.16.5-0.1.6.jar             |Valhelsia Structures          |valhelsia_structures          |1.16.5-0.1.6        |DONE      |Manifest: NOSIGNATURE
+		forbidden_arcanus-16.2.3.jar                      |Forbidden & Arcanus           |forbidden_arcanus             |16.2.3              |DONE      |Manifest: NOSIGNATURE
+		balancedenchanting-1.16.2-1.1.jar                 |Balanced Enchanting           |balancedenchanting            |1.16.2-1.1          |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: ba5f215e-d1e3-4b6a-b7ab-bcdbadb98c21
+	Player Count: 4 / 50; [ServerPlayerEntity['HeavenlyEye'/324, l='ServerLevel[world]', x=161.71, y=85.00, z=-585.64], ServerPlayerEntity['LeM0N0'/756, l='ServerLevel[world]', x=98.43, y=160.00, z=-742.49], ServerPlayerEntity['2izey'/2956, l='ServerLevel[world]', x=-1377.57, y=67.73, z=-1319.68], ServerPlayerEntity['P2NK0'/3894, l='ServerLevel[world]', x=178.04, y=91.00, z=-621.16]]
+	Data Packs: vanilla, mod:betterdungeons, mod:supermartijn642configlib, mod:netherportalfix (incompatible), mod:areas, mod:ironjetpacks, mod:bettercaves (incompatible), mod:villagernames, mod:ctm (incompatible), mod:cookingforblockheads (incompatible), mod:placebo (incompatible), mod:citadel (incompatible), mod:yungsapi, mod:bookshelf, mod:guardvillagers, mod:randompatches, mod:darkutils (incompatible), mod:apotheosis (incompatible), mod:mekanismgenerators, mod:carryon, mod:paraglider, mod:refinedstorage, mod:betterendforge, mod:industrialforegoing (incompatible), mod:resourcefulbees (incompatible), mod:repurposed_structures, mod:projectvibrantjourneys, mod:mekanismadditions, mod:ironfurnaces, mod:silentgear, mod:supermartijn642corelib, mod:botania, mod:villagespawnpoint, mod:curios, mod:patchouli (incompatible), mod:collective, mod:elevatorid, mod:ftbultimine (incompatible), mod:runelic, mod:extrastorage, mod:mekanismtools, mod:spartanweaponry, mod:architectury, mod:codechickenlib (incompatible), mod:bettermineshafts, mod:geckolib3 (incompatible), mod:cyclic (incompatible), mod:cucumber, mod:ftblibrary, mod:ftbteams, mod:treeharvester, mod:jei, mod:attributefix, mod:mekanism, mod:waystones (incompatible), mod:epicfight, mod:comforts, mod:travelersbackpack (incompatible), mod:artifacts, mod:dungeoncrawl, mod:farmingforblockheads (incompatible), mod:mcjtylib, mod:rftoolsbase, mod:xnet, mod:iceandfire (incompatible), mod:walljump (incompatible), mod:ichunutil, mod:enderstorage (incompatible), mod:mysticalworld, mod:ftbchunks, mod:forge, mod:bountiful (incompatible), mod:subwild, mod:dsurround, mod:mysticalagriculture, mod:mysticalagradditions, mod:ironchest, mod:dungeons_arise, mod:cofh_core (incompatible), mod:tconstruct, mod:enchdesc, mod:titanium (incompatible), mod:totw_additions, mod:immersiveengineering, mod:silentlib (incompatible), mod:archers_paradox (incompatible), mod:towers_of_the_wild, mod:jeiintegration, mod:spartanshields, mod:mantle (incompatible), mod:itemcollectors, mod:ftbbackups (incompatible), mod:autoreglib (incompatible), mod:akashictome, mod:quark (incompatible), mod:storagedrawers (incompatible), mod:fluxnetworks, mod:randomvillagenames, mod:twoplayersonehorse, mod:inventoryhud, mod:swiaf, mod:chisel (incompatible), mod:backtools, mod:enhancedcelestials, mod:byg, mod:aquaculture (incompatible), mod:refinedstorageaddons, mod:expandability, mod:valhelsia_core, mod:valhelsia_structures, mod:forbidden_arcanus (incompatible), resourcefulbees:internals (incompatible), file/afk display v1.1.0.zip, file/anti creeper grief v1.1.0.zip, file/anti enderman grief v1.1.0.zip, file/anti ghast grief v1.1.0.zip, file/classic fishing loot v1.1.0.zip, file/multiplayer sleep v2.5.2.zip, mod:waila, mod:wawla, mod:invtweaks (incompatible), mod:balancedenchanting (incompatible)
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
